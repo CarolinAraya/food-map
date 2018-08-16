@@ -1,0 +1,24 @@
+{
+  "name": "food-map",
+  "version": "1.0.0",
+  "description": "app with vanilla javascript and google developer services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vanilla",
+    "javascript",
+    "google",
+    "developer",
+    "api",
+    "maps",
+    "restaurant"
+  ],
+  "author": "Carolina Andrea Araya Aguilera",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
