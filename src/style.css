@@ -75,11 +75,11 @@ dropdown:focus {
   width: 400px;
 }
  #pac-input:focus {
-  border-color: #4d90fe;
+  border-color: orange;
 }
  #title {
   color: #fff;
-  background-color: #4d90fe;
+  background-color: orange;
   font-size: 25px;
   font-weight: 500;
   padding: 6px 12px;
