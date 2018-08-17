@@ -16,30 +16,34 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-6 offset-md-3">
+            <div class="col s12 center">
                 <h1>Food Map</h1>
             </div>
         </div>
     </div>
     <div class="container map">
         <div class="row map">
-            <div class="col-md-6 offset-md-3">
+            <div class="col s12 center map">
                 <div id="map"></div>
             </div>
         </div>
     </div>
+    
     <div class="row">
-        <div class="col-md-6 offset-md-3"></div>
+        <div class="cols12 center"></div>
         <div id="images"></div>
     </div>
+
+    <div id="modals"></div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYQW0o0YMY9NDMjOI3ur2BPA60bLU08xM&libraries=places" async
         defer></script>
-    <script src="assets/app/googleAPI.js"></script>
-    <script src="assets/app/materialize.js"></script>
+    <script src="src/services/google-API.js"></script>
+    <script src="src/controllers/render-places.js"></script>
+    <script src="src/views/materialize.js"></script>
 </body>
 
 </html>
